@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                     if (emailController.text.trim().isNotEmpty &&
                         passwordController.text.trim().isNotEmpty) {
                       try {
-                        UserCredential userCredential = await FirebaseAuth
+                        await FirebaseAuth
                             .instance
                             .signInWithEmailAndPassword(
                                 email: emailController.text,
