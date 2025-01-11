@@ -99,7 +99,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     if (emailController.text.trim().isNotEmpty &&
                         passwordController.text.trim().isNotEmpty) {
                       try {
-                        UserCredential data = await FirebaseAuth.instance
+                        await FirebaseAuth.instance
                             .createUserWithEmailAndPassword(
                                 email: emailController.text,
                                 password: passwordController.text);
