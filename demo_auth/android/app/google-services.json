@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "758891487433",
+    "project_id": "teammanagement-dbba4",
+    "storage_bucket": "teammanagement-dbba4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758891487433:android:790c030047fbdd039ced18",
+        "android_client_info": {
+          "package_name": "com.example.demo_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAyK60R4noVzarOykzadFS_WamY3O5F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758891487433:android:2efece2b040e0a409ced18",
+        "android_client_info": {
+          "package_name": "com.example.ipl_team_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAyK60R4noVzarOykzadFS_WamY3O5F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
